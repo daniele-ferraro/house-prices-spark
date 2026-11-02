@@ -1,0 +1,18 @@
+# Dati della competizione Kaggle (da scaricare dal sito, non ridistribuibili)
+data/*
+!data/.gitkeep
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# macOS
+.DS_Store
+__MACOSX/
